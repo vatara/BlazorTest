@@ -18,4 +18,8 @@
     <ProjectReference Include="..\BlazorTest.Shared\BlazorTest.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <BlazorGenerate Remove="Pages\DateTime.cshtml" />
+  </ItemGroup>
+
 </Project>

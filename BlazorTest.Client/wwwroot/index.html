@@ -12,5 +12,11 @@
     <app>Loading...</app>
 
     <script type="blazor-boot"></script>
+
+    <script>
+        Blazor.registerFunction('getTimezoneOffset', function () {
+            return new Date().getTimezoneOffset();
+        });
+    </script>
 </body>
 </html>
